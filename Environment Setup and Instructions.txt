@@ -1,0 +1,39 @@
+
+# .env file template
+# Copy this to a file named ".env" in your project directory
+GEMINI_API_KEY=your_actual_api_key_here
+
+# Setup Instructions:
+
+# 1. Create a new directory for your project
+mkdir gemini-conversation
+cd gemini-conversation
+
+# 2. Save the package.json file in this directory
+
+# 3. Install dependencies
+npm install
+
+# 4. Create a .env file with your Gemini API key
+echo "GEMINI_API_KEY=your_actual_api_key_here" > .env
+
+# 5. Save the main script as gemini-conversation.js
+
+# 6. Run the conversation
+npm start
+
+# Alternative: Run with auto-restart during development
+npm run dev
+
+# 7. To stop the conversation early, press Ctrl+C
+
+# Configuration Options (edit in gemini-conversation.js):
+# - maxTurns: Number of conversation rounds (default: 10)
+# - delayMs: Milliseconds between messages (default: 2000)
+# - model: Gemini model to use (default: 'gemini-2.0-flash-exp')
+
+# The script will:
+# - Display the conversation in real-time in your terminal
+# - Save the full conversation to a timestamped text file
+# - Handle errors gracefully and continue the conversation
+# - Show progress indicators and turn counters

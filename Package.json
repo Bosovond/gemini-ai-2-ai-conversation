@@ -1,0 +1,25 @@
+{
+  "name": "gemini-ai-conversation-v2.1",
+  "version": "2.1.0",
+  "description": "A Node.js script for two Gemini AI instances to converse, with file analysis capabilities.",
+  "main": "ai-convo-2.1.js",
+  "scripts": {
+    "start": "node ai-convo-2.1.js"
+  },
+  "keywords": [
+    "ai",
+    "gemini",
+    "conversation",
+    "google-ai",
+    "chatbot"
+  ],
+  "author": "Bosovond (Richard P.)",
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^1.17.0",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
