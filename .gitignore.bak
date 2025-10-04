@@ -1,8 +1,0 @@
-# Ignore environment variables file
-.env
-
-# Ignore Node.js dependencies folder
-node_modules/
-
-# Ignore conversation log folder
-convos/
